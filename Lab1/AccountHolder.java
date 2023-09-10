@@ -11,14 +11,19 @@ public class AccountHolder{
         }
         
     }
-    public void deposit(double x){
-
+    public void deposit(double amount){
+        balance+=amount;
     }
-    public void withdrawal(double x){
-
+    public void withdrawal(double amount){
+        if(balance-amount<50){
+            System.out.println("You can't withdraw as your minimum balance should be 50");
+    
+        }else{
+            balance-=amount; 
+        }
     }
     public void montlyInterest(){
-
+        balance += balance * (annualInterestRate / 12.0);
     }
 
 }
