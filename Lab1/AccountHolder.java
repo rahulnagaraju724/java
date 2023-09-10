@@ -1,8 +1,8 @@
 public class AccountHolder{
-    private double annualInterestRate;
+    private double annualInterestRate=4;
     private double balance;
 
-    public void AccountHolder(double balance){
+    public  AccountHolder(double balance){
         if(balance<0){
             System.out.print("Balance cannot be initiated to negative number");
         }
@@ -26,4 +26,7 @@ public class AccountHolder{
         balance += balance * (annualInterestRate / 12.0);
     }
 
+    public double getBalance(){
+        return balance;
+    }
 }
