@@ -233,8 +233,8 @@ public class BankRecords extends Client{
     /**
      * Print the data in a formatted tabular format.
      */
-    @Override   
-    public void printData() {
+      
+    public void printAllData() {
         // Print column headers
         System.out.printf("%-10s %-4s %-6s %-10s %-10s %-10s %-8s %-4s %-6s %-8s %-8s %-3s%n",
                 "ID", "Age", "Sex", "Region", "Income", "Married", "Children", "Car", "Savings", "Current", "Mortgage", "PEP");
@@ -250,6 +250,24 @@ public class BankRecords extends Client{
                     record.getId(), record.getAge(), record.getSex(), record.getRegion(), record.getIncome(),
                     record.getMarried(), record.getChildren(), record.getCar(), record.getSave_act(),
                     record.getCurrent_act(), record.getMortgage(), record.getPep()); 
+        }
+    }
+    @Override
+    public void printData() {
+        // Print column headers
+        System.out.printf("%-10s %-4s %-6s %-10s %-10s %-10s%n",
+                "ID", "Age", "Sex", "Region", "Income", "Mortgage");
+    
+        // Print the first 25 records (or fewer if there are fewer than 25 records)
+        int maxRecords = Math.min(25, recordObjects.length);
+    
+        // Print records
+        for (int i = 0; i < maxRecords; i++) {
+            BankRecords record = recordObjects[i];
+            // Print the selected fields in a formatted tabular format
+            System.out.printf("%-10s %-4d %-6s %-10s %-10.2f %-10.2s%n",
+                    record.getId(), record.getAge(), record.getSex(), record.getRegion(), record.getIncome(),
+                    record.getMortgage());
         }
     }
     
