@@ -1,0 +1,5 @@
+Data Analytics Result:
+Average Income of Females is: 28646.318233333328
+Average Income of Males is: 27225.827199999996
+Number of Female with both mortgage and savings account are: 71
+Number of Male with both a car and 1 child per location are: 34
