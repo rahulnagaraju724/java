@@ -1,7 +1,7 @@
 /*
 --------------------------------------------------------------------
 - Author Rahul Nagaraju
-- Assignment: Lab2
+- Assignment: Lab3
 - FileName: BankRecords.java
 - Course: ITMD-510 Object-Oriented App Development
 - Instructor: James Papademas
@@ -15,6 +15,7 @@ import java.io.FileNotFoundException; // Import the FileNotFoundException class 
 import java.io.IOException; // Import the IOException class for handling input/output errors
 import java.util.ArrayList; // Import the ArrayList class for working with lists
 import java.util.Arrays; // Import the Arrays class for working with arrays
+import java.util.Comparator; // Import the Comparators class for comparing objects
 import java.util.List; // Import the List class for working with lists
 
 public class BankRecords extends Client{
@@ -163,7 +164,7 @@ public class BankRecords extends Client{
     public void setPep(String pep) {
         this.pep = pep;
     }
-    
+
     // Override the abstract methods from the abstract class by adding instance fields to read, process, and print the data in concrete subclasses.
 
         /**
@@ -253,6 +254,10 @@ public class BankRecords extends Client{
                     record.getCurrent_act(), record.getMortgage(), record.getPep()); 
         }
     }
+
+    /**
+     * Print only 7 certain columns of data in a formatted tabular format.
+     */
     @Override
     public void printData() {
         // Print column headers
@@ -272,4 +277,39 @@ public class BankRecords extends Client{
         }
     }
     
+    /**
+     * Comparator for arranging BankRecords by the 'Sex' attribute.
+     */
+    public class SexComparator implements Comparator<BankRecords> {
+        /**
+         * Compares two BankRecords based on their 'Sex' attribute.
+         *
+         * @param record1 The first BankRecords object to compare.
+         * @param record2 The second BankRecords object to compare.
+         * @return A value indicating the order of the two records.
+         */
+        @Override
+        public int compare(BankRecords record1, BankRecords record2) {
+            return record1.getSex().compareTo(record2.getSex());
+        }
+    }
+
+    /**
+     * Comparator for organizing BankRecords based on the 'Location' attribute.
+     */
+    public class LocationComparator implements Comparator<BankRecords> {
+        /**
+         * Compares two BankRecords using their 'Location' attribute.
+         *
+         * @param record1 The first BankRecords object to compare.
+         * @param record2 The second BankRecords object to compare.
+         * @return A result indicating the relative order of the two records.
+         */
+        @Override
+        public int compare(BankRecords record1, BankRecords record2) {
+            return record1.getRegion().compareTo(record2.getRegion());
+        }
+    }
+
 }
+

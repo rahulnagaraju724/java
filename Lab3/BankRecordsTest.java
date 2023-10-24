@@ -1,7 +1,7 @@
 /*
 --------------------------------------------------------------------
 - Author Rahul Nagaraju
-- Assignment: Lab2
+- Assignment: Lab3
 - FileName: BankRecordsTest.java
 - Course: ITMD-510 Object-Oriented App Development
 - Instructor: James Papademas
