@@ -1,12 +1,14 @@
 /*
 --------------------------------------------------------------------
 - Author Rahul Nagaraju
-- Assignment: Lab2
+- Assignment: Lab4
 - FileName: BankRecordsTest.java
 - Course: ITMD-510 Object-Oriented App Development
 - Instructor: James Papademas
 ----------------------------------------------------------------------
 */
+package records;
+
 public class BankRecordsTest {
     public static void main(String[] args) {
         // Create an instance of the BankRecords class

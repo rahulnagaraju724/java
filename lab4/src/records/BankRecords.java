@@ -1,24 +1,26 @@
 /*
 --------------------------------------------------------------------
 - Author Rahul Nagaraju
-- Assignment: Lab3
+- Assignment: Lab4
 - FileName: BankRecords.java
 - Course: ITMD-510 Object-Oriented App Development
 - Instructor: James Papademas
 ----------------------------------------------------------------------
 */
+package records;
 
 import java.io.BufferedReader; // Import the BufferedReader class for file reading
 import java.io.FileReader; // Import the FileReader class for file reading
 import java.io.File; // Import the File class for file manipulation
 import java.io.FileNotFoundException; // Import the FileNotFoundException class for handling missing files
 import java.io.IOException; // Import the IOException class for handling input/output errors
+import java.io.Serializable;
 import java.util.ArrayList; // Import the ArrayList class for working with lists
 import java.util.Arrays; // Import the Arrays class for working with arrays
 import java.util.Comparator; // Import the Comparators class for comparing objects
 import java.util.List; // Import the List class for working with lists
 
-public class BankRecords extends Client{
+public class BankRecords extends Client implements Serializable{
    
     // Necessary variables
     private String id;
@@ -37,8 +39,8 @@ public class BankRecords extends Client{
     // Create a list to store lists of strings (2D list)
     List<List<String>> arrayOfLists = new ArrayList<>();
 
-    // Create an array to hold BankRecords objects
-    BankRecords[] recordObjects = new BankRecords[600];
+    // Create an array to hold BankRecords objects. Static to help with assignment 4(serialize and other things)
+    protected static BankRecords[] recordObjects = new BankRecords[600];
 
     // Constructor
     public BankRecords() {
@@ -229,7 +231,7 @@ public class BankRecords extends Client{
        }
 
        // Call the printData method to print the data
-       printData(); 
+       //printData(); 
     }
 
     /**
