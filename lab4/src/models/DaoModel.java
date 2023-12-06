@@ -52,7 +52,25 @@ public class DaoModel {
 		 e.printStackTrace();
 		}
 	}
-	
+	// INSERT INTO METHOD
+	public void insertRecords2(BankRecords[] robjs) {
+		try {
+			// Execute a query
+			System.out.println("Inserting records into the table...");
+			stmt = conn.connect().createStatement();
+			String sql = null;
+					
+			// Include all object data to the database table
+			for (int i = 0; i < robjs.length; ++i) {
+
+			sql =  "INSERT INTO r_naga_tab(id, income, pep) " +
+			"VALUES (' "+robjs[i].getId()+ " ', '  "+robjs[i].getIncome()+ " ', '  "+robjs[i].getPep()+"')";
+			stmt.executeUpdate(sql); 
+		}
+		conn.connect().close();
+		}catch (SQLException se) { se.printStackTrace();  }
+	}// INSERT INTO METHOD
+
 	// INSERT INTO METHOD
 	public void insertRecords(BankRecords[] robjs) {
 	  try {

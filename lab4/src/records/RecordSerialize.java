@@ -25,7 +25,6 @@ public class RecordSerialize extends BankRecords{
         // Create a map to store BankRecords objects with ID as the key
         Map<String, BankRecords> recordsMap = new HashMap<>();
         
-        
         int i=0;
         // Iterate through recordObjects and populate the map
         for (BankRecords record : recordObjects) {
@@ -86,6 +85,8 @@ public class RecordSerialize extends BankRecords{
         
         // Calculate and display the time difference
         long timeDifference = endTime - startTime;
-        System.out.println("Time Difference (Serialization to Deserialization): " + timeDifference + " ms");
+        System.out.println("Time Difference (Serialization to Deserialization with sleep 5 secs): " + timeDifference + " ms");
+        timeDifference-=5000;
+        System.out.println("Time Difference (Serialization to Deserialization without sleep): " + timeDifference+ " ms");
     }
 }

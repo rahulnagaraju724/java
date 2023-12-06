@@ -22,7 +22,7 @@ import java.util.TimeZone;
 // The "Records" class extends the "BankRecords" class to inherit and possibly extend its functionality.
 
 public class Records extends BankRecords {
-    private FileWriter fw;
+    public FileWriter fw;
     // Constructor for Records class
     public Records() {
         try {
@@ -117,6 +117,8 @@ public class Records extends BankRecords {
         double femaleIncomeAverage = femaleIncome / femaleCount;
         double maleIncomeAverage = maleIncome / maleCount;
 
+        System.out.println("\nLoan Analysis Report:");
+        System.out.println("Bank record generation report:");
         System.out.println("\nData Analytic Result:");
         System.out.println("Average Income of Females: $" + String.format("%.2f", femaleIncomeAverage));
         System.out.println("Average Income of Males: $" + String.format("%.2f", maleIncomeAverage));

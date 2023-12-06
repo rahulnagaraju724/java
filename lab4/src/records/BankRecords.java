@@ -19,8 +19,6 @@ import java.util.ArrayList; // Import the ArrayList class for working with lists
 import java.util.Arrays; // Import the Arrays class for working with arrays
 import java.util.Comparator; // Import the Comparators class for comparing objects
 import java.util.List; // Import the List class for working with lists
-import java.io.Serializable; // Import the Serialize class for serializing bank record objects
-
 
 public class BankRecords extends Client implements Serializable{
    
@@ -233,7 +231,7 @@ public class BankRecords extends Client implements Serializable{
        }
 
        // Call the printData method to print the data
-       printData(); 
+       //printData(); 
     }
 
     /**
