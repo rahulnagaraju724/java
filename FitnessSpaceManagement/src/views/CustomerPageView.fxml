@@ -64,7 +64,7 @@
                         <DropShadow />
                      </effect>
 						</ImageView>
-						<Label layoutX="70.0" layoutY="22.0" text="Log Out" textFill="#137c65">
+						<Label layoutX="70.0" layoutY="22.0" text="Log Out" textFill="#147a62">
 							<font>
 								<Font name="System Bold" size="13.0" />
 							</font>

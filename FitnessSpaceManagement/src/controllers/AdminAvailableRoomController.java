@@ -139,7 +139,7 @@ public class AdminAvailableRoomController implements Initializable {
 				Alert alert = new Alert(Alert.AlertType.INFORMATION);
 				alert.setTitle("Room Info Update");
 				alert.setHeaderText("Error");
-				alert.setContentText("Database Error!");
+				alert.setContentText("Record not found!");
 				alert.showAndWait();
 			}
 		}
@@ -166,7 +166,7 @@ public class AdminAvailableRoomController implements Initializable {
 				Alert alert = new Alert(Alert.AlertType.INFORMATION);
 				alert.setTitle("Room Info Update");
 				alert.setHeaderText("Error");
-				alert.setContentText("Database Error!");
+				alert.setContentText("Record not found!");
 				alert.showAndWait();
 			}
 		}

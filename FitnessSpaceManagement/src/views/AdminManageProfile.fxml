@@ -17,7 +17,7 @@
 			<!-- TODO Add Nodes -->
 
 			<children>
-				<Label layoutX="78.0" layoutY="169.0" text="Name" textFill="#137c65">
+				<Label layoutX="78.0" layoutY="169.0" text="Name" textFill="#fff">
                <effect>
                   <DropShadow>
                      <color>
@@ -25,7 +25,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-				<Label layoutX="78.0" layoutY="210.0" text="Username" textFill="#137c65">
+				<Label layoutX="78.0" layoutY="210.0" text="Username" textFill="#fff">
                <effect>
                   <DropShadow>
                      <color>
@@ -33,7 +33,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-				<Label layoutX="78.0" layoutY="255.0" text="Password" textFill="#137c65">
+				<Label layoutX="78.0" layoutY="255.0" text="Password" textFill="#fff">
                <effect>
                   <DropShadow>
                      <color>
@@ -41,7 +41,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-				<Label layoutX="346.0" layoutY="169.0" text="Email" textFill="#137c65">
+				<Label layoutX="346.0" layoutY="169.0" text="Email" textFill="#fff">
                <effect>
                   <DropShadow>
                      <color>
@@ -49,7 +49,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-				<Label layoutX="78.0" layoutY="300.0" text="Age" textFill="#137c65">
+				<Label layoutX="78.0" layoutY="300.0" text="Age" textFill="#fff">
                <effect>
                   <DropShadow>
                      <color>
@@ -57,7 +57,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-				<Label layoutX="346.0" layoutY="210.0" text="City" textFill="#137c65">
+				<Label layoutX="346.0" layoutY="210.0" text="City" textFill="#fff">
                <effect>
                   <DropShadow>
                      <color>
@@ -65,7 +65,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-				<Label layoutX="346.0" layoutY="255.0" text="State" textFill="#137c65">
+				<Label layoutX="346.0" layoutY="255.0" text="State" textFill="#fff">
                <effect>
                   <DropShadow>
                      <color>
@@ -73,7 +73,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-				<TextField fx:id="txtAdminRegisterName" layoutX="140.0" layoutY="165.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #137c65;">
+				<TextField fx:id="txtAdminRegisterName" layoutX="140.0" layoutY="165.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #fff;">
                <effect>
                   <DropShadow>
                      <color>
@@ -81,7 +81,7 @@
                      </color>
                   </DropShadow>
                </effect></TextField>
-				<TextField fx:id="txtAdminRegisterUsername" layoutX="140.0" layoutY="210.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #137c65;">
+				<TextField fx:id="txtAdminRegisterUsername" layoutX="140.0" layoutY="210.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #fff;">
                <effect>
                   <DropShadow>
                      <color>
@@ -89,7 +89,7 @@
                      </color>
                   </DropShadow>
                </effect></TextField>
-				<TextField fx:id="txtAdminRegisterEmail" layoutX="408.0" layoutY="165.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #137c65;">
+				<TextField fx:id="txtAdminRegisterEmail" layoutX="408.0" layoutY="165.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #fff;">
                <effect>
                   <DropShadow>
                      <color>
@@ -97,7 +97,7 @@
                      </color>
                   </DropShadow>
                </effect></TextField>
-				<PasswordField fx:id="txtAdminRegisterPassword" layoutX="140.0" layoutY="255.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #137c65;">
+				<PasswordField fx:id="txtAdminRegisterPassword" layoutX="140.0" layoutY="255.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #fff;">
                <effect>
                   <DropShadow>
                      <color>
@@ -105,7 +105,7 @@
                      </color>
                   </DropShadow>
                </effect></PasswordField>
-				<TextField fx:id="txtAdminRegisterAge" layoutX="140.0" layoutY="300.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #137c65;">
+				<TextField fx:id="txtAdminRegisterAge" layoutX="140.0" layoutY="300.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #fff;">
                <effect>
                   <DropShadow>
                      <color>
@@ -113,7 +113,7 @@
                      </color>
                   </DropShadow>
                </effect></TextField>
-				<Label layoutX="346.0" layoutY="300.0" text="Pincode" textFill="#137c65">
+				<Label layoutX="346.0" layoutY="300.0" text="Pincode" textFill="#fff">
                <effect>
                   <DropShadow>
                      <color>
@@ -121,7 +121,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-				<TextField fx:id="txtAdminRegisterCity" layoutX="408.0" layoutY="210.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #137c65;">
+				<TextField fx:id="txtAdminRegisterCity" layoutX="408.0" layoutY="210.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #fff;">
                <effect>
                   <DropShadow>
                      <color>
@@ -129,7 +129,7 @@
                      </color>
                   </DropShadow>
                </effect></TextField>
-				<TextField fx:id="txtAdminRegisterState" layoutX="408.0" layoutY="255.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #137c65;">
+				<TextField fx:id="txtAdminRegisterState" layoutX="408.0" layoutY="255.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #fff;">
                <effect>
                   <DropShadow>
                      <color>
@@ -137,7 +137,7 @@
                      </color>
                   </DropShadow>
                </effect></TextField>
-				<TextField fx:id="txtAdminRegisterPincode" layoutX="408.0" layoutY="300.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #137c65;">
+				<TextField fx:id="txtAdminRegisterPincode" layoutX="408.0" layoutY="300.0" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-width: 2; -fx-border-color: #fff;">
                <effect>
                   <DropShadow>
                      <color>
@@ -145,7 +145,7 @@
                      </color>
                   </DropShadow>
                </effect></TextField>
-				<Button layoutX="128.0" layoutY="354.0" mnemonicParsing="false" onAction="#onAdminProfileUpdate" prefHeight="39.0" prefWidth="162.0" text="Update" textFill="#137c65">
+				<Button layoutX="128.0" layoutY="354.0" mnemonicParsing="false" onAction="#onAdminProfileUpdate" prefHeight="39.0" prefWidth="162.0" text="Update" textFill="#fff">
 					<font>
 						<Font name="System Bold" size="13.0" />
 					</font>
@@ -153,7 +153,7 @@
                   <DropShadow />
                </effect>
 				</Button>
-				<Button layoutX="357.0" layoutY="354.0" mnemonicParsing="false" onAction="#onAdminProfileReset" prefHeight="39.0" prefWidth="149.0" text="Reset" textFill="#137c65">
+				<Button layoutX="357.0" layoutY="354.0" mnemonicParsing="false" onAction="#onAdminProfileReset" prefHeight="39.0" prefWidth="149.0" text="Reset" textFill="#fff">
 					<font>
 						<Font name="System Bold" size="13.0" />
 					</font>
@@ -161,7 +161,7 @@
                   <DropShadow />
                </effect>
 				</Button>
-				<Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onAdminProfileBack" text="Back" textFill="#137c65">
+				<Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onAdminProfileBack" text="Back" textFill="#fff">
 					<font>
 						<Font name="System Bold" size="13.0" />
 					</font>
@@ -174,7 +174,7 @@
                      </color>
                   </DropShadow>
                </effect></Label>
-            <Label layoutX="215.0" layoutY="93.0" prefHeight="53.0" prefWidth="218.0" text="Manage Profile" textFill="#137c65">
+            <Label layoutX="215.0" layoutY="93.0" prefHeight="53.0" prefWidth="218.0" text="Admin - Manage Profile" textFill="#fff">
                <font>
                   <Font name="Vladimir Script" size="40.0" />
                </font>
