@@ -35,14 +35,14 @@
                   </ImageView>
                </children>
             </AnchorPane>
-            <Pane layoutX="356.0" layoutY="82.0" prefHeight="250.0" prefWidth="210.0" style="-fx-background-color: #e0dede; -fx-background-radius: 20; -fx-border-color: #137c65; -fx-border-radius: 20;">
+            <Pane layoutX="356.0" layoutY="82.0" prefHeight="250.0" prefWidth="210.0" style="-fx-background-color: #e0dede; -fx-background-radius: 20; -fx-border-color: #fff; -fx-border-radius: 20;">
                <children>
       				<Button layoutX="36.0" layoutY="177.0" mnemonicParsing="false" onAction="#onAdminLogin" prefHeight="25.0" prefWidth="60.0" text="Login">
       					<font>
       						<Font name="System Bold" size="13.0" />
       					</font>
       				</Button>
-      				<TextField fx:id="txtAdminUsername" layoutX="36.0" layoutY="82.0" promptText="USER NAME" style="-fx-background-radius: 15; -fx-border-radius: 15;" styleClass="border" stylesheets="@../application/application.css" />
+      				<TextField fx:id="txtAdminUsername" layoutX="36.0" layoutY="82.0" promptText="USERNAME" style="-fx-background-radius: 15; -fx-border-radius: 15;" styleClass="border" stylesheets="@../application/application.css" />
       				<Button layoutX="115.0" layoutY="177.0" mnemonicParsing="false" onAction="#onAdminRegister" text="Register">
       					<font>
       						<Font name="System Bold" size="13.0" />
@@ -59,7 +59,7 @@
                      </image>
                   </ImageView>
       				<PasswordField fx:id="txtAdminPassword" layoutX="36.0" layoutY="130.0" promptText="PASSWORD" style="-fx-background-radius: 15; -fx-border-radius: 15;" styleClass="border" stylesheets="@../application/application.css" />
-                  <Label layoutX="21.0" layoutY="13.0" text="Admin Login" textFill="#137c65">
+                  <Label layoutX="21.0" layoutY="13.0" text="Admin Login" textFill="#3498db">
                      <font>
                         <Font name="Vladimir Script" size="36.0" />
                      </font>

@@ -21,9 +21,9 @@
                   <DropShadow />
                </effect>
 				</ImageView>
-				<Label layoutX="62.0" layoutY="122.0" text="Admin" textFill="#137c65">
+				<Label layoutX="62.0" layoutY="122.0" text="Admin" textFill="#000">
 					<font>
-						<Font name="System Bold" size="13.0" />
+						<Font name="System Bold" size="16.0" />
 					</font>
 				</Label>
 			</children>
@@ -33,7 +33,7 @@
 		</Pane>
 		<Pane fx:id="home_customer_pane" layoutX="324.0" layoutY="90.0" onMouseClicked="#customerClicked" onMouseEntered="#mouse_hover_2" onMouseExited="#mouse_exit_2" opacity="0.8" prefHeight="145.0" prefWidth="169.0" style="-fx-background-radius: 0 50 0 50;">
 			<children>
-				<Label layoutX="56.0" layoutY="122.0" text="Customer" textFill="#137c65">
+				<Label layoutX="56.0" layoutY="122.0" text="Customer" textFill="#000">
 					<font>
 						<Font name="System Bold" size="13.0" />
 					</font>
@@ -61,7 +61,7 @@
                   <DropShadow />
                </effect>
 				</ImageView>
-				<Label layoutX="72.0" layoutY="125.0" text="Exit" textFill="#137c65">
+				<Label layoutX="72.0" layoutY="125.0" text="Exit" textFill="#000">
 					<font>
 						<Font name="System Bold" size="13.0" />
 					</font>
@@ -73,7 +73,7 @@
 		</Pane>
 		<Pane fx:id="home_manager_pane" layoutX="322.0" layoutY="270.0" onMouseClicked="#managerClicked" onMouseEntered="#mouse_hover_4" onMouseExited="#mouse_exit_4" opacity="0.8" prefHeight="145.0" prefWidth="169.0" style="-fx-background-radius: 0 50 0 50;">
 			<children>
-				<Label layoutX="57.0" layoutY="122.0" text="Manager" textFill="#137c65">
+				<Label layoutX="57.0" layoutY="122.0" text="Manager" textFill="#000">
 					<font>
 						<Font name="System Bold" size="13.0" />
 					</font>
@@ -91,9 +91,9 @@
             <DropShadow />
          </effect>
 		</Pane>
-      <Label layoutX="86.0" layoutY="31.0" styleClass="title" text="Fitness Space Management System" textAlignment="CENTER" textFill="#18b58e" textOverrun="CLIP" underline="true" wrapText="true">
+      <Label layoutX="86.0" layoutY="31.0" styleClass="title" text="Fitness Space Management System" textAlignment="CENTER" textFill="#000" textOverrun="CLIP" underline="true" wrapText="true">
          <font>
-            <Font name="Vladimir Script" size="18.0" />
+            <Font name="Vladimir Script" size="25.0" />
          </font>
          <effect>
             <DropShadow>
