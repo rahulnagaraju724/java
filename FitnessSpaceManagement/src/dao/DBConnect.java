@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnect  {
-
+	
 	protected Connection connection;
 	public Connection getConnection() { return connection; }
 
@@ -18,6 +18,7 @@ public class DBConnect  {
 		
 		try {
 			connection = DriverManager.getConnection(url, username, password);
+			System.out.printlm("Successfully connected to database!!");
 		} catch (SQLException e) {
 			System.out.println("Error creating connection to database: " + e);
 			System.exit(-1);
