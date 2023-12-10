@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 /application/
 /controllers/
 /images/
 /models/
 /views/
+=======
+/controllers/
+/dao/
+/models/
+>>>>>>> 6104c39f0036ee17dc03b21c31548df9d4438edd
