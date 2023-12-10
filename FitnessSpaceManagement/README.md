@@ -1,4 +1,18 @@
-1. Introduction - Fitness Space Management System (FSMS) is a comprehensive Java-based application utilizing JavaFX, SQL, and the MVC framework to optimize the management of fitness spaces. With the escalating competition in the fitness industry, efficient and effective management is crucial for sustained growth and customer satisfaction. FSMS aims to provide an end-to-end solution facilitating seamless interactions for managers, administrators, and customers.
+1.	Execution
+Run the Application/main.java to bring up the application or run the jar file here on
+https://github.com/rahulnagaraju724/java/blob/FinalProject/FitnessSpaceManagement/FitnessSpaceManagement.jar
+Login Credentials: 
+Customer: 
+Username – rahul
+Password – rahul
+Manager: 
+Username – manager 
+Password – manager
+Admin: 
+Username – admin 
+Password – admin 
+
+2. Introduction - Fitness Space Management System (FSMS) is a comprehensive Java-based application utilizing JavaFX, SQL, and the MVC framework to optimize the management of fitness spaces. With the escalating competition in the fitness industry, efficient and effective management is crucial for sustained growth and customer satisfaction. FSMS aims to provide an end-to-end solution facilitating seamless interactions for managers, administrators, and customers.
 The system streamlines various operations such as membership tracking, equipment inventory management, scheduling, and user profiles. Employing MVC architecture, FSMS divides functionality into:
     - Model: Efficiently manages data and business logic using SQL to interact with the underlying database. It stores information related to memberships, schedules, and equipment inventory.
     - View: Offers an intuitive JavaFX interface for interactive user experiences. Managers can oversee operations, administrators have access to administrative tools, and customers can book sessions, view schedules, and manage memberships.
@@ -11,7 +25,7 @@ FSMS caters to different user services:
     3. Customers: Enjoy a user-friendly interface to view schedules, book sessions, manage memberships, and receive notifications, fostering personalized experiences based on preferences and fitness goals.
     The system's interactive features facilitate seamless communication between users and the fitness space, enhancing overall user experience while optimizing management efficiency. FSMS serves as a comprehensive solution for effective fitness space administration, emphasizing user engagement and streamlined functionalities.
 
-2.	Technologies Employed:
+3.	Technologies Employed:
 
 Technical Prerequisites:
 Essential technologies encompassing Java, JavaFX, and MySQL databases were imperative for the development of this project, ensuring robust functionality and seamless interactions.
@@ -24,11 +38,11 @@ The project necessitated adeptness in Fitness Space Management Systems, ensuring
 Development Tools Employed:
 Utilization of Java Eclipse and MYSQL Developer as primary tools to facilitate the development process, aiding in coding, debugging, and database management tasks seamlessly.
 
-3.	Application Design
+4.	Application Design
 
 ![Alt text](./src/images/FlowChart.png)
 
-4.	Database
+5.	Database
 The Fitness Space Management System (FSMS) operates on a robust database structure comprising five key tables: `fitness_admins`, `fitness_customers`, `fitness_managers`, `fitness_rooms`, and `fitness_bookings`. These tables form the backbone of the system, storing essential data and facilitating seamless interactions between various system components.
     1. `fitness_admins`: This table stores information related to administrators, including their credentials, access rights, and system-related configurations. It enables secure access and management for administrative users.
     2. `fitness_customers`: This table maintains data concerning customers utilizing the system. It includes customer profiles, membership details, preferences, and booking histories, ensuring personalized experiences and effective customer management.
