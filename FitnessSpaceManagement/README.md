@@ -10,3 +10,5 @@ FSMS caters to different user services:
 2. Administrators: Control user access, system configurations, and database management, ensuring smooth operations and generating managerial reports.
 3. Customers: Enjoy a user-friendly interface to view schedules, book sessions, manage memberships, and receive notifications, fostering personalized experiences based on preferences and fitness goals.
 The system's interactive features facilitate seamless communication between users and the fitness space, enhancing overall user experience while optimizing management efficiency. FSMS serves as a comprehensive solution for effective fitness space administration, emphasizing user engagement and streamlined functionalities.
+
+![Alt text](./src/images/FlowChart.png)
