@@ -76,7 +76,7 @@ public class CustomerAvailableRoomController implements Initializable {
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		// TODO Auto-generated method stub
 
-		String query = "SELECT * FROM  rooms_2711";
+		String query = "SELECT * FROM  fitness_rooms";
 		roomList = roomModel.getRooms(query);
 		loadData(query);
 	}

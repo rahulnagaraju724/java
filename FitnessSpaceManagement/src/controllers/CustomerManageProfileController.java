@@ -109,7 +109,7 @@ public class CustomerManageProfileController implements Initializable {
 			int age = txtCustomerRegisterAge.getText().equals("") ? 0
 					: Integer.parseInt(txtCustomerRegisterAge.getText());
 
-			sql = "update customers_2711 set password='" + txtCustomerRegisterPassword.getText()
+			sql = "update fitness_customers set password='" + txtCustomerRegisterPassword.getText()
 					+ "', username='" + txtCustomerRegisterUsername.getText() + "',name='"
 					+ txtCustomerRegisterName.getText() + "',pincode=" + pinCode + ",state='"
 					+ txtCustomerRegisterState.getText() + "',city='" + txtCustomerRegisterCity.getText()

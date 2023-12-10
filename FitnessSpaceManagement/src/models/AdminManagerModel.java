@@ -97,7 +97,7 @@ public class AdminManagerModel extends DBConnect {
 
 	public ObservableList<AdminManagerModel> getAdmins() {
 		ObservableList<AdminManagerModel> admins = FXCollections.observableArrayList();
-		String query = "SELECT id, name, email, status FROM admins_2711";
+		String query = "SELECT id, name, email, status FROM fitness_admins";
 		try (PreparedStatement statement = connection.prepareStatement(query)) {
 			ResultSet resultSet = statement.executeQuery();
 			while (resultSet.next()) {
@@ -117,7 +117,7 @@ public class AdminManagerModel extends DBConnect {
 	}
 
 	public void updateTable(int id) {
-		String query = "update admins_2711 set status = true where id=" + id + ";";
+		String query = "update fitness_admins set status = true where id=" + id + ";";
 			try (PreparedStatement stmt = connection.prepareStatement(query)) {
 			int count = stmt.executeUpdate();
 			if (count > 0) {

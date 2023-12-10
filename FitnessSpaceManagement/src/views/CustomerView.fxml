@@ -32,12 +32,12 @@
          <children>
             <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="12.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/UserID.png" />
+                  <Image url="@../images/login1.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="14.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/Password.png" />
+                  <Image url="@../images/pass1.png" />
                </image>
             </ImageView>
             <Label layoutX="8.0" layoutY="32.0" text="Customer Login" textFill="#3498db">

@@ -144,7 +144,7 @@ public class RoomModel {
 
 	public int updateRoomByRoomNumber(int roomNumber) {
 		int result = 0;
-		String query = "UPDATE  rooms_2711 SET roomstatus=? WHERE roomnumber=?";
+		String query = "UPDATE  fitness_rooms SET roomstatus=? WHERE roomnumber=?";
 		try (PreparedStatement statement = conn.getConnection().prepareStatement(query)) {
 			statement.setString(1, "available");
 			statement.setInt(2, roomNumber);
@@ -157,7 +157,7 @@ public class RoomModel {
 	
 	public int DeletedRoomByRoomNumber(int roomNumber) {
 		int result = 0;
-		String query = "Delete from rooms_2711 WHERE roomnumber=?";
+		String query = "Delete from fitness_rooms WHERE roomnumber=?";
 		try (PreparedStatement statement = conn.getConnection().prepareStatement(query)) {
 			statement.setInt(1, roomNumber);
 			//statement.setInt(2, roomNumber);
@@ -169,7 +169,7 @@ public class RoomModel {
 	}
 	
 	public void findRoomByRoomNumber(int roomNumber) {
-		String query = "select * from  rooms_2711 WHERE roomstatus='available' and roomnumber=?;";
+		String query = "select * from  fitness_rooms WHERE roomstatus='available' and roomnumber=?;";
 		try (PreparedStatement statement = conn.getConnection().prepareStatement(query)) {
 			statement.setInt(1, roomNumber);
 			ResultSet resultSet = statement.executeQuery();

@@ -158,13 +158,13 @@ public class CustomerReservationController {
 		try {
 			stmt = conn.getConnection().createStatement();
 
-			String sql = "INSERT INTO bookings_2711 (custname, custage, custcity, custstate, custpincode, roomtype, numberofpeople, roomprice, servicefee,total, startdate, enddate, roomnumber) VALUES ('"
+			String sql = "INSERT INTO fitness_bookings (custname, custage, custcity, custstate, custpincode, roomtype, numberofpeople, roomprice, servicefee,total, startdate, enddate, roomnumber) VALUES ('"
 					+ customerName + "'," + customerAge + ",'" + customerCity + "','" + customerState + "',"
 					+ customerPincode + ",'" + customerRoomtype + "'," + customerNoumberofPeople + ","
 					+ customerRoomPrice + "," + customerServicefee + "," + customerTotal + ",'" + localDate + "','"
 					+ endDate + "'," + customerRoomNumber + ");";
 
-			String updateSql = "update rooms_2711 set roomstatus = 'busy' where roomnumber ="
+			String updateSql = "update fitness_rooms set roomstatus = 'busy' where roomnumber ="
 					+ customerRoomNumber + ";";
 			int c = stmt.executeUpdate(sql);
 			int c2 = stmt.executeUpdate(updateSql);
